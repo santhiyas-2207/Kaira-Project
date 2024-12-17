@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wheels Slider</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Varta:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+</head>
+<body>
+    <div class="maincontainer">
+        <h2>WHEELS</h2>
+        <ul>
+            <li><i class="fa-solid fa-caret-right"></i>WGU: 17-inch cast aluminum wheel with a fully painted silver litho, standard on Touring FWD.</li>
+            <li><i class="fa-solid fa-caret-right"></i>WJR: 17-inch diamond-cut aluminum wheel with Baltic gray pockets, standard on Touring FWD/Hybrid and Touring Hybrid.</li>
+            <li><i class="fa-solid fa-caret-right"></i>WP6: 18-inch aluminum wheel with foreshadow finish, part of the S Appearance Package on various hybrid models.</li>
+        </ul>
+
+        
+        <div class="slider-container">
+            <button class="arrow left-arrow" id="left-arrow">&#10094;</button>
+            <div class="wheel-container">
+                <div class="wheel active" id="wheel1">
+                    <img src="./img/wgu.png" alt="WGU image">
+                    <h2>17-INCH CAST ALUMINUM WHEEL, FULLY PAINTED SILVER LITHO</h2>
+                    <p>Standard on Touring FWD</p>
+                    <h2>(WGU)</h2>
+                </div>
+                <div class="wheel" id="wheel2">
+                    <img src="./img/wjr.png" alt="WJR image">
+                    <h2>17-INCH CAST ALUMINUM DIAMOND-CUT WHEEL WITH BALTIC GRAY POCKETS</h2>
+                    <p>Standard on Touring FWD/Hybrid and Touring Hybrid</p>
+                    <h2>(WJR)</h2>
+                </div>
+                <div class="wheel" id="wheel3">
+                    <img src="./img/wp6.png" alt="WP6 image">
+                    <h2>18-INCH CAST ALUMINUM WHEEL WITH FORESHADOW FINISH</h2>
+                    <p>Included with S Appearance Package on Touring Hybrid, Touring Hybrid and Limited Hybrid</p>
+                    <h2>(WP6)</h2>
+                </div>
+            </div>
+            <button class="arrow right-arrow" id="right-arrow">&#10095;</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
